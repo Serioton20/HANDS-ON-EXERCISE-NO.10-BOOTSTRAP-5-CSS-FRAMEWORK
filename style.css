@@ -1,0 +1,100 @@
+body {
+    background-image: url(image/smcc.png);
+    background-size: 1000px;
+    background-attachment:fixed;
+    font-family: sans-serif;
+   text-align: center;
+  }
+  
+  .h1{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .ul1{
+
+    list-style-type: none;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(33, 4, 115);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+  li a:hover{
+    color: goldenrod;
+    padding: 10px;
+  }
+  .li1{
+    display: inline;
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+    padding: 14px 16px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .ul2{ 
+    background-color: rgb(33, 4, 115);
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  }
+  .ul3{
+    background-color: rgb(33, 4, 115);
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  }
+  .fig1{
+    background-color: rgb(33, 4, 115);
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  }
+  .ul4{
+    background-color: rgb(33, 4, 115);
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  }
+  figcaption{
+    background-color: rgb(33, 4, 115);
+  color: white;
+    border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  }
+  .ul5{
+    background-color: rgb(33, 4, 115);
+    color: white;
+      border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+  .ul1, .ul2, .ul3, .ul4, .ul5{
+    text-align: center;
+  }
+  ul.myUL{
+    display: inline-block;
+    text-align: left;
+  }
+  a[href="#top"]{
+    display: block;
+    text-align: right;
+    background-color: rgb(33, 4, 115);
+    color: aliceblue;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  a[href="#top"]:active{
+    color: blue;
+  }
+
+  
